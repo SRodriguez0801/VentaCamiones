@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import '../Estilos/Products.css'
 export const Products = () => {
   const truckData = [
     {

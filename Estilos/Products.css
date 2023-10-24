@@ -1,0 +1,30 @@
+/* Estilos generales */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para dispositivos móviles (ancho de pantalla menor a 768px) */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    /* Puedes ajustar aún más los estilos para dispositivos móviles aquí */
+  }
+  
+  /* Estilos para dispositivos de escritorio (ancho de pantalla mayor a 768px) */
+  @media (min-width: 769px) {
+    .container {
+      padding: 20px;
+    }
+  
+    /* Puedes ajustar aún más los estilos para dispositivos de escritorio aquí */
+  }
+  
+  /* Estilos adicionales comunes a ambos dispositivos */
+  .info {
+    margin-top: 20px;
+  }
+  
