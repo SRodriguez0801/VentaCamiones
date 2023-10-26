@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Estilos/home.css'
 
-export  const Home = () => {
+export const Home = () => {
   return (
-    
-     <div className="d-flex flex-column align-items-center">
-      
-     
+
+    <div className="d-flex flex-column align-items-center">
+
+
       <h1 className="mt-4">Venta de Camiones</h1>
       <img src="camion_4.jpg" alt="Camión2" className="mt-4" />
 
